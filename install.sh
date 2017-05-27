@@ -10,3 +10,5 @@ cp /opt/gopath/src/DNASample/interfaces.go /opt/gopath/src/DNA/net/httpjsonrpc
 go build -o /opt/gopath/src/DNASample/DNA main.go
 cd /opt/gopath/src/DNASample
 rm /opt/gopath/src/DNASample/Chain -rf
+rm /opt/gopath/src/DNASample/config.json
+cp /opt/gopath/src/config/config.json /opt/gopath/src/DNASample/
